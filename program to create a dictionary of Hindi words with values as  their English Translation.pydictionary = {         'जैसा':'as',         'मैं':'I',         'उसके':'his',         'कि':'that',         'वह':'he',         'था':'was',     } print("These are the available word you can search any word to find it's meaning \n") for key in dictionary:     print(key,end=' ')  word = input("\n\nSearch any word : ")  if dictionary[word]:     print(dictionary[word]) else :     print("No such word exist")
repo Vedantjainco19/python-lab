@@ -1,0 +1,9 @@
+dictionary = {'गाय':'cow', 'बिल्ली':'cat',  'कुत्ता':'dog' }
+print("The words you can search any word to find it's meaning \n")
+for key in dictionary:
+    print(key,end=' ')
+word = input("\n\nSearch any word : ")
+if dictionary[word]:
+    print(dictionary[word])
+else :
+    print("try again")
