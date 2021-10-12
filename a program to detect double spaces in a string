@@ -1,0 +1,3 @@
+line=input("write any sentence ")
+doubleSpace=line.find("  ")
+print(doubleSpace)
