@@ -1,0 +1,4 @@
+r = input("Enter lenght of side of square: ")
+r=int(r)
+a=r*r
+print("the area is",a,"m.sq.")
