@@ -1,5 +1,0 @@
-r = input("Enter lenght of radius: ")
-r=int(r)
-p=3.14*r*r
-a=2*3.14*r
-print("the area is",a,"m.sq. and perimeter is ",p," m")
